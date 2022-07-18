@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Изучение языка JavaScript</title>
+  </head>
+  <body>
+      <script type="text/javascript">
+        //  document.write("Hello World!");
+        //  document.write("<br /> Hello World!");
+    //    var number = 21;
+      //  var string;
+    //    string = "Hello World!";
+    //    var floatNumber = 1.23;
+    //    var isTrue;
+    //    isTrue = true;
+    //    document.write("Variable number = " + number + "<br />" + string  + floatNumber + "<br />" + isTrue);
+    //    var x = 5;
+    //    var y;
+    //    var result;
+    //    y = 5;
+    //    result = x + y;
+    //    document.write(result);
+    //    result *= x;
+    //    document.write("<br />" + result);
+    //    result += 1;
+    //    document.write("<br />" + result);
+    //    result --;
+    //    document.write("<br />" + result);
+    //    document.write("<br />");
+    //    document.write(x + "+" + y + "=" + (x + y));
+    //    document.write("<br />");
+
+      //  var str_1 = 12;
+      //  var str_2 = 24;
+      //  document.write(str_1 + str_2);
+      //  document.write("<br />");
+      //  var bool;
+      //  var z = 6;
+      //  var d = 7;
+      //  bool = z >= d;
+      //  document.write(bool);
+      // Урок №7 - Циклы
+      //  var i;
+      //  for(i = 0; i < 10; i+=3) {
+      //     if(i % 3 == 0 && i !=0) continue;
+      //     if(i == 8) break;
+      //    document.write(i + "Hello! <br />");
+      //  }
+      //  var x = 0;
+      //  while (x < 10) {
+      //    document.write(x + "<br />");
+      //    x +=2;  // x = x + 2---эта записть равна +=
+      //  }
+      //  var y = 1000;
+      //  do {
+      //      document.write("Цикл сработал")
+      //  } while (y < 100);
+      //                        Уроки JavaScript | Урок №8 - Методы alert, confirm, prompt
+      //    var person;
+      //    alert("Hello, " + person);
+      //    if(confirm("Are you sure?")){
+      //      person = prompt("Hi, what's your name?");
+      //      alert("Hello, " + person);
+      //    } else {
+      //        alert("Person not sure");
+      //    }
+      //                         Уроки JavaScript | Урок №9 - Массивы
+      //    var arr = new Array("str", 1.23, 7, false);
+          //document.write(arr[0] + "<br />" + arr[2]);
+      //    for(var i = 0; i < arr.length; i++)
+      //      document.write(arr[i] + "<br />");
+
+      //    arr = new Array();
+      //    for (i = 0; i < 10; i++) {
+      //      arr[i] = i * 3;
+      //      document.write(arr[i] + "<br />");
+      //    }
+      //    // Сумма массива
+      //    var summ = 0;
+      //    for (i = 0; i < arr.length; i++)
+      //      summ += arr[i] ;
+      //      document.write("Сумма равна - " + summ);
+      //      document.write("<br />" + "Среднее арифмитическое - " + (summ / arr.length));
+        //                         Уроки JavaScript | Урок №10 - Многомерные массивы
+        var arr_1 = new Array();
+        var arr_2 = new Array();
+        var arr_3 = new Array();
+        for (var i = 0; i < 5; i++) arr_1[i] = i;
+        for (var i = 0; i < 10; i++) arr_2[i] = i;
+        for (var i = 0; i < 15; i++) arr_3[i] = i;
+
+        var arr = new Array (arr_1, arr_2, arr_3);
+        document.write(arr[0][4]);
+        document.write("<br />");
+        for(var x = 0; x < arr.length; x++){
+            for(var j = 0; j < arr[x].length; j++){
+                document.write(arr[x][j] + " ");
+            }
+            document.write("<br />");
+        }
+
+
+
+      </script>
+  </body>
+</html>
