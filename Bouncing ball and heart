@@ -75,7 +75,7 @@
     border-radius: 50%;
     background: linear-gradient(
       35deg,
-      #ccffaa,
+      #ccffcc,
       #ffccee
     );
     animation-name: bounce;
